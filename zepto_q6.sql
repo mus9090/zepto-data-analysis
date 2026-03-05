@@ -1,0 +1,2 @@
+-- price per gram to identify value-for-money products
+select distinct name , discountedSellingPrice, weightInGms , round(discountedSellingPrice/weightInGms,2) as price_per_gram from zepto where weightInGms>100 order by price_per_gram;
