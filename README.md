@@ -40,7 +40,7 @@ To analyze Zepto's product data and answer real business questions around pricin
 
 1. Download the dataset from Kaggle
 2. Import the CSV into MySQL Workbench or any SQL client
-3. Run the queries in `zepto_analysis.sql` sequentially
+3. Run the queries sequentially
 
 
 🧰 Tools Used
